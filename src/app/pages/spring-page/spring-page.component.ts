@@ -11,7 +11,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
       <h2>Datos desde API Spring Boot (Render)</h2>
 
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Angular_full_color_logo.svg"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIU9Q1hRxaXU6oGMlKzoIRzHfRHwzwu2Yqpg&s"
         alt="Imagen secundaria"
         class="second-image"
       />
@@ -82,7 +82,7 @@ export class SpringPageComponent {
   error: string | null = null;
 
   // TODO: cambia esta URL por la de tu API en Render
-  private springApiUrl = 'https://act3t3-psp.onrender.com/api/loquesea';
+  private springApiUrl = 'https://act3t3-psp.onrender.com/api/categorias';
 
   constructor(private http: HttpClient) {}
 
