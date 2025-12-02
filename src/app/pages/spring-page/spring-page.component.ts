@@ -82,7 +82,7 @@ export class SpringPageComponent {
   error: string | null = null;
 
   // TODO: cambia esta URL por la de tu API en Render
-  private springApiUrl = 'https://TU_URL_DE_RENDER/api/loquesea';
+  private springApiUrl = 'https://act3t3-psp.onrender.com/api/loquesea';
 
   constructor(private http: HttpClient) {}
 
