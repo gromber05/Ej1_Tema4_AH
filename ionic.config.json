@@ -1,0 +1,7 @@
+{
+  "name": "Ej1_Tema4_GonzaloRomeroBernal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
